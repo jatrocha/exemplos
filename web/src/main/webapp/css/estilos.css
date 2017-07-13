@@ -1,0 +1,134 @@
+body {
+	margin-top:10px;
+	color:black;
+	background:#f1faff;
+	font:14px/1.2 sans-serif;
+	}
+
+.ui-state-highlight {padding:5px 10px;}
+article, aside, figure, footer, header, hgroup,
+menu, nav, section, video, audio { display: block; }
+header {border-bottom:1px solid #999;}
+header p {
+	float:right;
+	margin:5px 0 0;
+	}
+header p a {
+	display:block;
+	width:27px;
+	height:27px;
+	}
+header h1 {
+	margin-top:8px;
+	padding:0 0 3px 35px;
+	float:left;
+	}
+
+
+h1, h2 , h3, h4, h5, h6 {
+	margin:10px 0 5px 0;
+	}
+h1 {
+	font-size:18px;
+	margin-bottom:10px;
+	}
+h2 {
+	margin-bottom:20px;
+	font-size:16px;
+	}
+h3 {
+	font-size:14px;
+	}
+h4, h5, h6 {
+	font-size:12px;
+	}
+#msg, .msg, .msg-fly {
+	border:1px solid black;
+	border-radius:4px;
+	padding:5px;
+	background:black;
+	color:lime;
+	/*min-height:35px;*/
+	margin-bottom:20px;
+	visibility:hidden;
+	}
+.msg-fly {
+	visibility:visible;
+	}
+
+li.msg {
+	list-style:inside;
+	list-style-type:decimal;
+	margin-bottom:2px;
+	}
+#tudo {
+	width:730px;
+	margin:0 auto;
+	background:#fff;
+	text-align:left;
+	border:1px solid #999;
+	border-radius:8px;
+	box-shadow: 4px 4px 2px #888;
+	}
+#conteudo {
+	position:relative;
+	width:700px;
+	margin:10px 15px;
+	}
+.tema {
+	clear:both;
+	color:#999;
+	text-align:right;
+	margin:15px 0 0;
+	font-size:0.9em;
+	font-style:italic;
+	}
+footer {
+	margin:5px 0; 
+	border-top:1px dotted #999;
+	padding-top:15px;
+	}
+footer nav {
+	font-style:normal;
+	float:left;
+	}
+footer a {
+	color:#333;
+	text-decoration:none;
+	}
+footer a:hover {
+	color:#888;
+	text-decoration:underline;
+	}
+#reload {
+	display:block;
+	float:right;
+	font-size:11px;
+	font-weight:bold;
+	height:22px;
+	cursor:pointer;
+	border-width:0 2px 2px;
+	border-radius:5px;
+	color:white;
+	}
+.botao {
+	font-weight:bold;
+	cursor:pointer;
+	border-width:0 2px 2px;
+	border-radius:5px;
+	color:white;
+	}
+.destaque {
+	font-weight:bold;
+	color:#c30;
+	}
+.destaque1 {
+	font-weight:bold;
+	color:white;
+	}
+.clear {clear:both;}
+.esq {float:left;margin:0 10px 0 0}
+.dir {float:right;margin:0 0 0 10px}
+a img {border:none;}
+img {display:block;}
+code, pre { padding:0; font-size: 1em; line-height:130%;  }

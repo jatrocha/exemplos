@@ -1,0 +1,222 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>examples</groupId>
+	<artifactId>web</artifactId>
+	<version>1.0.2-SNAPSHOT</version>
+
+	<packaging>war</packaging>
+
+	<name>WEB</name>
+	<url>http://www.cygnus-x1.com.br/</url>
+	<description>Interface Web para os exemplos</description>
+
+	<parent>
+		<groupId>examples</groupId>
+		<artifactId>examples</artifactId>
+		<version>1.0.3-SNAPSHOT</version>
+	</parent>
+
+	<scm>
+		<connection>scm:svn:https://cygnus-x1.googlecode.com/svn/Construction/WEB/java/trunk/web</connection>
+		<developerConnection>scm:svn:https://cygnus-x1.googlecode.com/svn/Construction/WEB/java/trunk/web</developerConnection>
+		<url>https://cygnus-x1.googlecode.com/svn/Construction/WEB/java/trunk/web</url>
+	</scm>
+
+
+	<build>
+
+		<filters>
+
+			<filter>filter-development.properties</filter>
+
+		</filters>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<attachClasses>true</attachClasses>
+					<classesClassifier>classes</classesClassifier>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<configuration>
+
+					<scanIntervalSeconds>10</scanIntervalSeconds>
+
+					<webAppSourceDirectory>${basedir}/src/main/webapp</webAppSourceDirectory>
+					<webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
+					<classesDirectory>${basedir}/target/classes/</classesDirectory>
+					<contextPath>examples</contextPath>
+
+					<connectors>
+						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+							<port>8081</port>
+							<maxIdleTime>60000</maxIdleTime>
+						</connector>
+					</connectors>
+
+				</configuration>
+
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+	<profiles>
+
+		<profile>
+
+			<id>test</id>
+
+			<build>
+
+				<filters>
+					<filter>filter-test.properties</filter>
+				</filters>
+
+				<plugins>
+					<plugin>
+						<groupId>org.apache.tomcat.maven</groupId>
+						<artifactId>tomcat7-maven-plugin</artifactId>
+						<configuration>
+							<url>http://localhost:8081/manager/html</url>
+							<username>admin</username>
+							<password>up64z8</password>
+							<path>/rest-api</path>
+							<update>true</update>
+							<port>8081</port>
+						</configuration>
+					</plugin>
+
+				</plugins>
+
+			</build>
+
+		</profile>
+
+	</profiles>
+
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>examples</groupId>
+			<artifactId>commons</artifactId>
+			<version>1.0.2-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>examples</groupId>
+			<artifactId>rest-api</artifactId>
+			<version>1.0.2-SNAPSHOT</version>
+			<scope>test</scope>
+			<classifier>classes</classifier>
+			<exclusions>
+				<exclusion>
+					<artifactId>jersey-server</artifactId>
+					<groupId>com.sun.jersey</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>jersey-json</artifactId>
+					<groupId>com.sun.jersey</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>jersey-servlet</artifactId>
+					<groupId>com.sun.jersey</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- Jersey Client -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+		</dependency>
+
+		<!-- JSON -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20070829</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<!-- Test Dependencies -->
+		<dependency>
+			<groupId>com.sun.jersey.jersey-test-framework</groupId>
+			<artifactId>jersey-test-framework-grizzly2</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.35.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>2.35.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.35.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.2.3</version>
+		</dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.jwebunit</groupId>
+            <artifactId>jwebunit-core</artifactId>
+            <version>3.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.jwebunit</groupId>
+            <artifactId>jwebunit-htmlunit-plugin</artifactId>
+            <version>3.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.htmlunit</groupId>
+            <artifactId>htmlunit</artifactId>
+            <version>2.9</version>
+            <scope>test</scope>
+        </dependency>
+
+	</dependencies>
+
+</project>

@@ -1,0 +1,161 @@
+FIAT# Uno# Mille Fire Economy 2 Portas# 1.0 - 8V
+FIAT# Uno# Mille Fire Economy 4 Portas# 1.0 - 8V
+FIAT# Uno# Mille Way Economy 2 Portas# 1.0 - 8V
+FIAT# Uno# Mille Way Economy 4 Portas# 1.0 - 8V
+FIAT# Novo Uno# Economy Evo 2 portas# 1.4 - 8V
+FIAT# Novo Uno# Economy Evo 4 portas# 1.4 - 8V
+FIAT# Novo Uno# Vivace Evo 2 portas# 1.0 - 8V
+FIAT# Novo Uno# Vivace Evo 4 portas# 1.0 - 8V
+FIAT# Novo Uno# Attractive Evo 2 portas# 1.4 - 8V
+FIAT# Novo Uno# Attractive Evo 4 portas# 1.4 - 8V
+FIAT# Palio# Fire Economy 2 Portas# 1.0 - 8V
+FIAT# Palio# Fire Economy 4 Portas# 1.0 - 8V
+FIAT# 500# Cult# 1.4 - 8V
+FIAT# 500# Cult Dualogic# 1.4 - 8V
+FORD# Ka# Base# 1.0 - 8V
+FORD# Ka# Pulse# 1.0 - 8V
+FORD# Ka# Class# 1.0 - 8V
+KIA# Picanto# EX4# 1.0 - 12V
+KIA# Picanto# LX4# 1.0 - 12V
+KIA# Picanto# EX4# 1.0 - 12V
+KIA# Picanto# LX4# 1.0 - 12V
+RENAULT# Clio# Authentique 3 Portas# 1.0 - 16V
+RENAULT# Clio# Expression 3 Portas# 1.0 - 16V
+RENAULT# Clio# Authentique 5 Portas# 1.0 - 16V
+RENAULT# Clio# Expression 5 Portas# 1.0 - 16V
+RENAULT# Clio# Authentique 3 Portas# 1.0 - 16V
+RENAULT# Clio# Expression 3 Portas# 1.0 - 16V
+RENAULT# Clio# Authentique 5 Portas# 1.0 - 16V
+RENAULT# Clio# Expression 5 Portas# 1.0 - 16V
+RENAULT# Clio# Campus 3 Portas# 1.0 - 16V
+RENAULT# Clio# Campus 5 Portas# 1.0 - 16V
+CITROEN# C3# Origine# 1.5 - 8V
+CITROEN# C3# Tendance# 1.5 - 8V
+CITROEN# DS3# THP Sport Chic# 1.6 - 16V
+FIAT# Siena# Fire# 1.0 - 8V
+FIAT# Siena# EL# 1.0 - 8V
+FIAT# Siena# EL# 1.4 - 8V
+FIAT# Novo Palio# Attractive# 1.0 - 8V
+FIAT# Novo Palio# Attractive# 1.4 - 8V
+HONDA# Fit# DX# 1.4 - 16V
+HONDA# Fit# LX# 1.4 - 16V
+HONDA# Fit# LXL# 1.4 - 16V
+HONDA# Fit# EXL# 1.5 - 16V
+HYUNDAI# HB20# Comfort# 1.0 - 12V
+HYUNDAI# HB20# Comfort Plus# 1.0 - 12V
+HYUNDAI# HB20# Comfort Style# 1.0 - 12V
+HYUNDAI# HB20# Comfort# 1.6 - 16V
+HYUNDAI# HB20# Comfort Plus# 1.6 - 16V
+HYUNDAI# HB20# Comfort Style# 1.6 - 16V
+HYUNDAI# HB20# Premium# 1.6 - 16V
+PEUGEOT# 207 HB Blue Lion# 5 Portas# 1.4 - 8V
+PEUGEOT# 207 HB# XR 3 Portas# 1.4 - 8V
+PEUGEOT# 207 HB# XR 5 Portas# 1.4 - 8V
+PEUGEOT# 207 HB# XR S 5 Portas# 1.4 - 8V
+PEUGEOT# 207 Passion# XR# 1.4 - 8V
+PEUGEOT# 207 Passion# XR S# 1.4 - 8V
+PEUGEOT# 207 SW# XR# 1.4 - 8V
+PEUGEOT# 207 SW# XR S# 1.4 - 8V
+HONDA# Fit# DX# 1.4 - 16V
+HONDA# Fit# LX# 1.4 - 16V
+HONDA# Fit# LXL# 1.4 - 16V
+HONDA# Fit# EX# 1.5 - 16V
+HONDA# Fit# EXL# 1.5 - 16V
+HONDA# Fit# EX# 1.5 - 16V
+RENAULT# Sandero# Authentique# 1.0 - 16V
+RENAULT# Sandero# Expression# 1.0 - 16V
+TOYOTA# Etios HB# 1.3# 1.3 - 16V
+TOYOTA# Etios HB# X# 1.3 - 16V
+TOYOTA# Etios HB# XS# 1.3 - 16V
+TOYOTA# Etios HB# XLS# 1.5 - 16V
+VOLKSWAGEN# Gol Ecomotion# 2 Portas# 1.0 - 8V
+VOLKSWAGEN# Gol Ecomotion# 4 Portas# 1.0 - 8V
+VOLKSWAGEN# Gol G4# 2 Portas# 1.0 - 8V
+VOLKSWAGEN# Gol G4# 4 Portas# 1.0 - 8V
+VOLKSWAGEN# Gol# 1.0# 1.0 - 8V
+VOLKSWAGEN# Gol# 1.6# 1.6 - 8V
+VOLKSWAGEN# Gol# Power# 1.6 - 8V
+VOLKSWAGEN# Gol#  I-Motion# 1.6 - 8V
+VOLKSWAGEN# Gol# Power I-Motion# 1.6 - 8V
+VOLKSWAGEN# Novo Gol# BlueMotion Technology# 1.0 - 8V
+VOLKSWAGEN# Novo Gol# 1.0# 1.0 - 8V
+VOLKSWAGEN# Novo Gol# City# 1.0 - 8V
+VOLKSWAGEN# Novo Gol# 1.6# 1.6 - 8V
+VOLKSWAGEN# Novo Gol# City# 1.6 - 8V
+VOLKSWAGEN# Novo Gol# Power# 1.6 - 8V
+VOLKSWAGEN# Novo Gol#  I-Motion# 1.6 - 8V
+VOLKSWAGEN# Novo Gol#  City I-Motion# 1.6 - 8V
+VOLKSWAGEN# Novo Gol# Power I-Motion# 1.6 - 8V
+VOLKSWAGEN# Polo# BlueMotion# 1.6 - 8V
+VOLKSWAGEN# Polo# 1.6# 1.6 - 8V
+VOLKSWAGEN# Polo# Sportline# 1.6 - 8V
+VOLKSWAGEN# Polo Sedan# 1.6# 1.6 - 8V
+VOLKSWAGEN# Polo Sedan# Comfortline# 1.6 - 8V
+FORD# Fiesta Sedan# SE# 1.6 -16V
+FORD# Fiesta Hatch# SE HA# 1.6 -16V
+HONDA# City# DX# 1.5 - 16V
+HONDA# City# LX# 1.5 - 16V
+HONDA# City# EX# 1.5 - 16V
+HONDA# City# EXL# 1.5 - 16V
+HONDA# City# DX# 1.5 - 16V
+HONDA# City# LX# 1.5 - 16V
+HONDA# City# EX# 1.5 - 16V
+HONDA# City# EXL# 1.5 - 16V
+KIA# Soul# EX# 1.6 - 16V
+KIA# Soul# LX# 1.6 - 16V
+KIA# Soul# EX# 1.6 - 16V
+KIA# Soul# LX# 1.6 - 16V
+RENAULT# Logan# Authentique# 1.0 - 16V
+RENAULT# Logan# Expression# 1.0 - 16V
+RENAULT# Symbol# Expression# 1.6 - 16V
+RENAULT# Symbol# Privilege# 1.6 - 16V
+TOYOTA# Etios SD# X# 1.5 - 16V
+TOYOTA# Etios SD# XS# 1.5 - 16V
+TOYOTA# Etios SD# XLS# 1.5 - 16V
+VOLKSWAGEN# Voyage# 1.0# 1.0 - 8V
+VOLKSWAGEN# Voyage# 1.6# 1.6 - 8V
+VOLKSWAGEN# Voyage# Comfortline# 1.6 - 8V
+VOLKSWAGEN# Voyage# I-Motion# 1.6 - 8V
+VOLKSWAGEN# Voyage# Comfortline I-Motion# 1.6 - 8V
+VOLKSWAGEN# Novo Voyage# 1.0# 1.0 - 8V
+VOLKSWAGEN# Novo Voyage# City# 1.0 - 8V
+VOLKSWAGEN# Novo Voyage# 1.6# 1.6 - 8V
+VOLKSWAGEN# Novo Voyage# Comfortline# 1.6 - 8V
+VOLKSWAGEN# Novo Voyage# City# 1.6 - 8V
+VOLKSWAGEN# Novo Voyage# I-Motion# 1.6 - 8V
+VOLKSWAGEN# Novo Voyage# Comfortline I-Motion# 1.6 - 8V
+VOLKSWAGEN# Novo Voyage# City I-Motion# 1.6 - 8V
+FORD# Fusion# Hybrid# 2.5# - 16V
+FORD# Focus Hatch# HC# 1.6# - 16V
+FORD# Focus Sedan# FC# 1.6 - 16V
+FORD# Focus Hatch# HC# 2.0 - 16V
+FORD# Focus Sedan# FC# 2.0 - 16V
+HONDA# Civic# LXS# 1.8 - 16V
+HONDA# Civic# LXL# 1.8 - 16V
+HONDA# Civic# EXS# 1.8 - 16V
+HONDA# Civic# LXS# 1.8 - 16V
+HONDA# Civic# LXL# 1.8 - 16V
+KIA# Cerato# EX3# 1.6 - 16V
+KIA# Cerato# LX3# 1.6 - 16V
+KIA# Cerato# SX3# 1.6 - 16V
+KIA# Cerato# EX3# 1.6 - 16V
+KIA# Cerato# LX3# 1.6 - 16V
+KIA# Cerato# SX3# 1.6 - 16V
+FIAT# Novo Idea# Adventure# 1.8 - 16V
+FIAT# Palio# Adventure# 1.8 - 16V
+FIAT# Palio# Adventure Dualogic# 1.8 - 16V
+FIAT# Strada# Adventure# 1.8 - 16V
+FIAT# Strada# Adventure Cabine Dupla# 1.8 - 16V
+FIAT# Strada# Adventure C Dupla Dualogic# 1.8 - 16V
+FORD# New Ecosport# S# 1.6 - 16V
+FORD# New Ecosport# SE# 1.6 - 16V
+FORD# New Ecosport# Freestyle# 1.6 - 16V
+FORD# New Ecosport# Titanium# 1.6 - 16V
+FORD# Ecosport# XL# 1.6 - 8V
+FORD# Ecosport# XLS# 1.6 - 8V
+FORD# Ecosport# XLT# 1.6 - 8V
+FORD# Ecosport# FreeStyle# 1.6 - 8V
+FORD# Ecosport# XLT# 2.0 - 16V
+FORD# Ecosport# FreeStyle# 2.0 - 16V
+FORD# Ecosport# XLT# 2.0 - 16V
+FORD# Ecosport# FreeStyle# 2.0 - 16V

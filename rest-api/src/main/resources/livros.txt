@@ -1,0 +1,5 @@
+83df89af-9824-400e-9eab-dd13408d9e29#Biblia##Religiao
+83df89af-9824-400e-9eab-dd13408d9e30#A Moreninha#Machado de Assis#Ficcao
+83df89af-9824-400e-9eab-dd13408d9e31#David Copperfield#Charles Dickens#Classico
+83df89af-9824-400e-9eab-dd13408d9e32#Sidarta#Herman Hesse#Ficcao
+83df89af-9824-400e-9eab-dd13408d9e33#ADO Banco de dados na web#Jose Carlos Macoratti#Informatica
