@@ -34,7 +34,7 @@
 <properties>
     <!-- ... your other Maven properties... -->
  
-    <dynaTrace.version>6.1</dynaTrace.version>
+    <dynaTrace.version>6.5</dynaTrace.version>
     <dynaTrace.testCategory>performance</dynaTrace.testCategory>
     <dynaTrace.agentGroup>Test</dynaTrace.agentGroup>
     <dynaTrace.profileName>SimpleWebApp-Maven</dynaTrace.profileName>
