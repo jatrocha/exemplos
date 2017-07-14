@@ -44,6 +44,7 @@
     <dynaTrace.serverUrl>http://172.16.1.9:8020</dynaTrace.serverUrl>
 </properties>
 
+<plugins>
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-surefire-plugin</artifactId>
@@ -52,6 +53,7 @@
 <argLine>-agentpath:"/opt/dynatrace-6.5/agent/lib64/libdtagent.so"=name=Exemplos_SimpleWebApp-Maven,server=172.16.1.9:9998</argLine>
 </configuration>
 </plugin>
+</plugins>
 
 
 	<repositories>
