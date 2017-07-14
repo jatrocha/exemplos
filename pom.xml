@@ -114,13 +114,13 @@
 
 	<dependencies>
 
-<dependencies>
+
 	<dependency>
 		<groupId>dynaTrace</groupId>
 		<artifactId>dtAutomation</artifactId>
 		<version>${dynaTrace.version}</version>
 	</dependency>
-</dependencies>
+
 
 		<!-- Framework -->
 
