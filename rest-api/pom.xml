@@ -58,7 +58,11 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.5</version>
 					<configuration>
+<<<<<<< HEAD
 						<argLine>-agentpath:"/opt/dynatrace-6.5/agent/lib/libdtagent.so"=name=RestAPI_Exemplos,server=dynaappmon:9998</argLine>
+=======
+						<argLine>-agentpath:"C:\Program Files (x86)\Dynatrace\Dynatrace Agent 6.5\agent\lib64\dtagent.dll"=name=RestAPI_Exemplos,server=dynaappmon:9998</argLine>
+>>>>>>> branch 'master' of https://github.com/jatrocha/exemplos
 					</configuration>
 				</plugin>
 			</plugins>
