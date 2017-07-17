@@ -24,11 +24,45 @@
 		<url>https://cygnus-x1.googlecode.com/svn/Construction/WEB/java/trunk/rest-api</url>
 	</scm>
 
+	<properties>
+		<dynaTrace.version>6.5</dynaTrace.version>
+		<dynaTrace.username>admin</dynaTrace.username>
+		<dynaTrace.password>admin</dynaTrace.password>
+		<dynaTrace.serverUrl>http://dynaappmon:8020</dynaTrace.serverUrl>
+		<dynaTrace.collector>dynappmon:9998</dynaTrace.collector>
+		<dynaTrace.systemProfile>Exemplos</dynaTrace.systemProfile>
+		<dynaTrace.testCategory>performance</dynaTrace.testCategory>
+		
+  <!-- This property will be used to store the session uri for e.g.: Start/Stop Recording -->
+  <dynaTrace.sessionUriProperty>dynaTrace.sessionUri</dynaTrace.sessionUriProperty>
+
+  <!-- Following is a list of properties for goal: startRecording -->
+  <dynaTrace.sessionName>My Stored Session</dynaTrace.sessionName>
+  <dynaTrace.sessionDescription>My stored Session Description</dynaTrace.sessionDescription>
+  <dynaTrace.recordingOption>all</dynaTrace.recordingOption> <!-- other options: violations|timeseries -->
+  <dynaTrace.sessionLocked>false</dynaTrace.sessionLocked>
+  <dynaTrace.appendTimestamp>false</dynaTrace.appendTimestamp>		
+		
+	</properties>
+
 	<build>
 
 		<filters>
 			<filter>filter-development.properties</filter>
 		</filters>
+
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.5</version>
+					<configuration>
+						<argLine>-agentpath:"/opt/dynatrace-6.5/agent/lib/libdtagent.so"=name=RestAPI_Exemplos,server=dynaappmon:9998</argLine>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 
 		<plugins>
 
@@ -78,7 +112,6 @@
 					<plugin>
 						<groupId>org.mortbay.jetty</groupId>
 						<artifactId>maven-jetty-plugin</artifactId>
-						<version>6.1.18</version>
 						<configuration>
 
 							<scanIntervalSeconds>10</scanIntervalSeconds>
@@ -237,6 +270,12 @@
 	</profiles>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>dynaTrace</groupId>
+			<artifactId>dtAutomation</artifactId>
+			<version>${dynaTrace.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>examples</groupId>
