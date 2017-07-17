@@ -31,35 +31,9 @@
 		<url>https://github.com/jatrocha/cygnus-x1</url>
 	</scm>
 
-<properties>
-    <!-- ... your other Maven properties... -->
- 
-    <dynaTrace.version>6.5</dynaTrace.version>
-    <dynaTrace.testCategory>performance</dynaTrace.testCategory>
-    <dynaTrace.agentGroup>Test</dynaTrace.agentGroup>
-    <dynaTrace.profileName>SimpleWebApp-Maven</dynaTrace.profileName>
-    <dynaTrace.username>admin</dynaTrace.username>
-    <dynaTrace.password>admin</dynaTrace.password>
-    <dynaTrace.collector>172.16.1.9:9998</dynaTrace.collector>
-    <dynaTrace.serverUrl>http://172.16.1.9:8020</dynaTrace.serverUrl>
-</properties>
-
-  <build>
-    <pluginManagement>
-<plugins>
-<plugin>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-surefire-plugin</artifactId>
-<version>2.5</version>
-<configuration>
-<argLine>-agentpath:"/opt/dynatrace-6.5/agent/lib64/libdtagent.so"=name=Exemplos_SimpleWebApp-Maven,server=172.16.1.9:9998</argLine>
-</configuration>
-</plugin>
-</plugins>
-    
-    </pluginManagement>
-  </build>
-
+	<properties>
+		<dynaTrace.version>6.5.0</dynaTrace.version>
+	</properties>
 
 	<repositories>
 
@@ -113,14 +87,6 @@
 	</repositories>
 
 	<dependencies>
-
-
-	<dependency>
-		<groupId>dynaTrace</groupId>
-		<artifactId>dtAutomation</artifactId>
-		<version>${dynaTrace.version}</version>
-	</dependency>
-
 
 		<!-- Framework -->
 
