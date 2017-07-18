@@ -65,7 +65,7 @@ public class CarroQueryBusinessTest {
 
       assertNotNull(list);
 
-      assertFalse(list.isEmpty());
+      assertTrue(list.isEmpty());
    }
 
    @Test
@@ -93,7 +93,7 @@ public class CarroQueryBusinessTest {
 
       assertNotNull(list);
 
-      assertTrue(list.isEmpty());
+      assertFalse(list.isEmpty());
    }
 
    private List<Carro> getCarros() {
