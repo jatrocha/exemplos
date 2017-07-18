@@ -59,9 +59,9 @@ public class CarroQueryBusinessTest {
 
       });
 
-      for (long i = 0; i < 100000000l; i++) {
-    	  System.out.print("");
-      }
+//      for (long i = 0; i < 100000000l; i++) {
+//    	  System.out.print("");
+//      }
       
       
       CarroBusiness business = new CarroBusiness(dataStore);
@@ -70,7 +70,7 @@ public class CarroQueryBusinessTest {
 
       assertNotNull(list);
 
-      assertTrue(list.isEmpty());
+      assertFalse(list.isEmpty());
    }
 
    @Test
