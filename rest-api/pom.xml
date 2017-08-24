@@ -52,7 +52,7 @@
 			<filter>filter-development.properties</filter>
 		</filters>
 
-<!-- 
+
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -60,13 +60,12 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.5</version>
 					<configuration>
-						<argLine>-agentpath:"/opt/dynatrace-6.5/agent/lib64/libdtagent.so"=name=RestAPI_Exemplos,server=dynaappmon:9998</argLine>
+						<argLine>-agentpath:"/opt/dynatrace-6.5/agent/lib64/libdtagent.so"=name=RestAPI_Exemplos,server=dynaappmon:9998,optionTestRunIdJava=${dtTestrunID}</argLine>
 						
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
- -->
 		<plugins>
 
 			<plugin>
