@@ -52,6 +52,7 @@
 			<filter>filter-development.properties</filter>
 		</filters>
 
+<!-- 
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -60,12 +61,12 @@
 					<version>2.5</version>
 					<configuration>
 						<argLine>-agentpath:"/opt/dynatrace-6.5/agent/lib64/libdtagent.so"=name=RestAPI_Exemplos,server=dynaappmon:9998</argLine>
-						<!-- <argLine>-agentpath:"C:\Program Files (x86)\Dynatrace\Dynatrace	Agent 6.5\agent\lib64\dtagent.dll"=name=RestAPI_Exemplos,server=dynaappmon:9998</argLine> -->
+						
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-
+ -->
 		<plugins>
 
 			<plugin>
